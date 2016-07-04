@@ -22,7 +22,12 @@ libraryDependencies ++= {
     "io.spray" %% "spray-testkit" % sprayV % "test",
     "io.spray" %% "spray-json" % "1.3.2",
     "com.typesafe.akka" %% "akka-actor" % akkaV,
-    "com.typesafe.akka" %% "akka-testkit" % akkaV % "test"
+    "com.typesafe.akka" %% "akka-testkit" % akkaV % "test",
+    "org.scalikejdbc" %% "scalikejdbc"       % "2.4.1",
+    "com.h2database"  %  "h2"                % "1.4.191",
+    "ch.qos.logback"  %  "logback-classic"   % "1.1.7"
+
   )
 }
-libraryDependencies += "mysql" % "mysql-connector-java" % "6.0.2"
+libraryDependencies += "com.typesafe" % "config" % "1.3.0"
+libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.38"

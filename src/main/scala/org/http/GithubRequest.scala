@@ -1,5 +1,6 @@
 package org.http
 
+import org.data.Config
 import org.util.GetRequest
 
 import scala.util.Try
@@ -14,23 +15,23 @@ trait GithubRequest extends GetRequest {
   def initial_search(language:String, term:String):String = {
     val language_query = "language%3A" + language
     val full_url = search_base_url + language_query + "+" + term
-    getRequest(full_url,None)
+    getRequest(full_url,Some(Config.session))
   }
   def get_max_page(raw_page:String):Int = {
-    raw_page.lines.map(_.trim).withFilter(_.matches(max_page_reg)).map{
+    Try(raw_page.lines.map(_.trim).withFilter(_.matches(max_page_reg)).map{
       s =>
         val compiled_maxpage_reg(num) = s
         num.toInt
-    }.max
+    }.max).toOption match {
+      case Some(e) => e
+      case None => 1
+    }
   }
   def generate_search(language:String, term:String):List[String] = {
     val result = initial_search(language,term)
-    val max_page = Try(get_max_page(result)).toOption
+    val max_page = get_max_page(result)
     val language_query = "language%3A" + language
     val full_url = search_base_url + language_query + "+" + term
-    max_page match {
-      case Some(e) => (1 to e).map(full_url + "&p=" + _.toString).toList
-      case None => List()
-    }
+    (1 to max_page).map(full_url + "&p=" + _.toString).toList
   }
 }

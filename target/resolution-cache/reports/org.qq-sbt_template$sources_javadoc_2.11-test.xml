@@ -7,10 +7,10 @@
 		revision="0.1"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160624140348"/>
+		date="20160624173509"/>
 	<dependencies>
 		<module organisation="io.spray" name="spray-testkit_2.11">
-			<revision name="1.3.3" status="release" pubdate="20150324085000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="54">
+			<revision name="1.3.3" status="release" pubdate="20150324085000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="38">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="4074" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-testkit_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-testkit_2.11/1.3.3/spray-testkit_2.11-1.3.3.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
@@ -25,7 +25,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-testkit_2.11">
-			<revision name="2.4.1" status="release" pubdate="20151127090733" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="51">
+			<revision name="2.4.1" status="release" pubdate="20151127090733" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="36">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3543" time="0" location="/Users/Scott/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/ivy-2.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-testkit_2.11/2.4.1/akka-testkit_2.11-2.4.1.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="0.1"/>
@@ -39,8 +39,23 @@
 				</artifacts>
 			</revision>
 		</module>
+		<module organisation="org.scalikejdbc" name="scalikejdbc_2.11">
+			<revision name="2.4.1" status="release" pubdate="20160521084019" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalikejdbc.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="31">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3225" time="0" location="/Users/Scott/.ivy2/cache/org.scalikejdbc/scalikejdbc_2.11/ivy-2.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.11/2.4.1/scalikejdbc_2.11-2.4.1.pom"/>
+				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalikejdbc_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1274" time="0" location="/Users/Scott/.ivy2/cache/org.scalikejdbc/scalikejdbc_2.11/srcs/scalikejdbc_2.11-2.4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.11/2.4.1/scalikejdbc_2.11-2.4.1-sources.jar"/>
+					</artifact>
+					<artifact name="scalikejdbc_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="351090" time="0" location="/Users/Scott/.ivy2/cache/org.scalikejdbc/scalikejdbc_2.11/docs/scalikejdbc_2.11-2.4.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc_2.11/2.4.1/scalikejdbc_2.11-2.4.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="io.spray" name="spray-client_2.11">
-			<revision name="1.3.3" status="release" pubdate="20150324215200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">
+			<revision name="1.3.3" status="release" pubdate="20150324215200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="30">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3704" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-client_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
@@ -55,7 +70,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scalaj" name="scalaj-http_2.11">
-			<revision name="2.2.1" status="release" pubdate="20160106025933" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/scalaj/scalaj-http" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="38">
+			<revision name="2.2.1" status="release" pubdate="20160106025933" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/scalaj/scalaj-http" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="26">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3158" time="0" location="/Users/Scott/.ivy2/cache/org.scalaj/scalaj-http_2.11/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalaj/scalaj-http_2.11/2.2.1/scalaj-http_2.11-2.2.1.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="0.1"/>
@@ -70,7 +85,7 @@
 			</revision>
 		</module>
 		<module organisation="io.spray" name="spray-servlet_2.11">
-			<revision name="1.3.3" status="release" pubdate="20150324085300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
+			<revision name="1.3.3" status="release" pubdate="20150324085300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3465" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-servlet_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-servlet_2.11/1.3.3/spray-servlet_2.11-1.3.3.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
@@ -85,7 +100,7 @@
 			</revision>
 		</module>
 		<module organisation="io.spray" name="spray-routing_2.11">
-			<revision name="1.3.3" status="release" pubdate="20150324084900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="28">
+			<revision name="1.3.3" status="release" pubdate="20150324084900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3750" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-routing_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-routing_2.11/1.3.3/spray-routing_2.11-1.3.3.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
@@ -100,7 +115,7 @@
 			</revision>
 		</module>
 		<module organisation="com.chuusai" name="shapeless_2.11">
-			<revision name="1.2.4" status="release" pubdate="20130619080214" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+			<revision name="1.2.4" status="release" pubdate="20130619080214" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
 				<license name="Apache License" url="http://www.apache.org/licenses/"/>
 				<metadata-artifact status="no" details="" size="2775" time="0" location="/Users/Scott/.ivy2/cache/com.chuusai/shapeless_2.11/ivy-1.2.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/chuusai/shapeless_2.11/1.2.4/shapeless_2.11-1.2.4.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.2.4" rev-constraint-default="1.2.4" rev-constraint-dynamic="1.2.4" callerrev="0.1"/>
@@ -115,7 +130,7 @@
 			</revision>
 		</module>
 		<module organisation="io.spray" name="spray-caching_2.11">
-			<revision name="1.3.3" status="release" pubdate="20150324085200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="39">
+			<revision name="1.3.3" status="release" pubdate="20150324085200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="27">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3334" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-caching_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-caching_2.11/1.3.3/spray-caching_2.11-1.3.3.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
@@ -130,7 +145,7 @@
 			</revision>
 		</module>
 		<module organisation="com.googlecode.concurrentlinkedhashmap" name="concurrentlinkedhashmap-lru">
-			<revision name="1.4.2" status="release" pubdate="20150127193000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/concurrentlinkedhashmap" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+			<revision name="1.4.2" status="release" pubdate="20150127193000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/concurrentlinkedhashmap" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="5220" time="0" location="/Users/Scott/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/ivy-1.4.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.4.2" rev-constraint-default="1.4.2" rev-constraint-dynamic="1.4.2" callerrev="0.1"/>
@@ -144,8 +159,23 @@
 				</artifacts>
 			</revision>
 		</module>
+		<module organisation="org.scalikejdbc" name="scalikejdbc-interpolation_2.11">
+			<revision name="2.4.1" status="release" pubdate="20160521084002" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalikejdbc.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4268" time="0" location="/Users/Scott/.ivy2/cache/org.scalikejdbc/scalikejdbc-interpolation_2.11/ivy-2.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.11/2.4.1/scalikejdbc-interpolation_2.11-2.4.1.pom"/>
+				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalikejdbc-interpolation_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11159" time="0" location="/Users/Scott/.ivy2/cache/org.scalikejdbc/scalikejdbc-interpolation_2.11/srcs/scalikejdbc-interpolation_2.11-2.4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.11/2.4.1/scalikejdbc-interpolation_2.11-2.4.1-sources.jar"/>
+					</artifact>
+					<artifact name="scalikejdbc-interpolation_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="570979" time="0" location="/Users/Scott/.ivy2/cache/org.scalikejdbc/scalikejdbc-interpolation_2.11/docs/scalikejdbc-interpolation_2.11-2.4.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation_2.11/2.4.1/scalikejdbc-interpolation_2.11-2.4.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="io.spray" name="spray-json_2.11">
-			<revision name="1.3.2" status="release" pubdate="20150506090100" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+			<revision name="1.3.2" status="release" pubdate="20150506090100" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3083" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-json_2.11/ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="0.1"/>
@@ -160,7 +190,7 @@
 			</revision>
 		</module>
 		<module organisation="io.spray" name="spray-httpx_2.11">
-			<revision name="1.3.3" status="release" pubdate="20150324085100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="16">
+			<revision name="1.3.3" status="release" pubdate="20150324085100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="10">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="4640" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-httpx_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
@@ -175,7 +205,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
-			<revision name="1.0.3" status="release" pubdate="20141204141814" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+			<revision name="1.0.3" status="release" pubdate="20141204141814" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="2987" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="0.1"/>
@@ -189,333 +219,172 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.elasticsearch" name="elasticsearch">
-			<revision name="2.1.1" status="release" pubdate="20151218040126" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
-				<metadata-artifact status="no" details="" size="22035" time="0" location="/Users/Scott/.ivy2/cache/org.elasticsearch/elasticsearch/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/elasticsearch/elasticsearch/2.1.1/elasticsearch-2.1.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="0.1"/>
+		<module organisation="org.scalikejdbc" name="scalikejdbc-interpolation-macro_2.11">
+			<revision name="2.4.1" status="release" pubdate="20160521083951" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalikejdbc.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3283" time="0" location="/Users/Scott/.ivy2/cache/org.scalikejdbc/scalikejdbc-interpolation-macro_2.11/ivy-2.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.11/2.4.1/scalikejdbc-interpolation-macro_2.11-2.4.1.pom"/>
+				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="elasticsearch" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5307732" time="0" location="/Users/Scott/.ivy2/cache/org.elasticsearch/elasticsearch/srcs/elasticsearch-2.1.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/elasticsearch/elasticsearch/2.1.1/elasticsearch-2.1.1-sources.jar"/>
+					<artifact name="scalikejdbc-interpolation-macro_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="346999" time="0" location="/Users/Scott/.ivy2/cache/org.scalikejdbc/scalikejdbc-interpolation-macro_2.11/docs/scalikejdbc-interpolation-macro_2.11-2.4.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.11/2.4.1/scalikejdbc-interpolation-macro_2.11-2.4.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="scalikejdbc-interpolation-macro_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1135" time="0" location="/Users/Scott/.ivy2/cache/org.scalikejdbc/scalikejdbc-interpolation-macro_2.11/srcs/scalikejdbc-interpolation-macro_2.11-2.4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-interpolation-macro_2.11/2.4.1/scalikejdbc-interpolation-macro_2.11-2.4.1-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="com.twitter" name="jsr166e">
-			<revision name="1.1.0" status="release" pubdate="20140215015500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/twitter/jsr166e" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
-				<license name="CC0 1.0 Universal" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
-				<metadata-artifact status="no" details="" size="2830" time="0" location="/Users/Scott/.ivy2/cache/com.twitter/jsr166e/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1"/>
+		<module organisation="org.scalikejdbc" name="scalikejdbc-core_2.11">
+			<revision name="2.4.1" status="release" pubdate="20160521083845" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalikejdbc.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="5189" time="0" location="/Users/Scott/.ivy2/cache/org.scalikejdbc/scalikejdbc-core_2.11/ivy-2.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.11/2.4.1/scalikejdbc-core_2.11-2.4.1.pom"/>
+				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="jsr166e" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="113786" time="0" location="/Users/Scott/.ivy2/cache/com.twitter/jsr166e/docs/jsr166e-1.1.0-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0-javadoc.jar"/>
+					<artifact name="scalikejdbc-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="75169" time="0" location="/Users/Scott/.ivy2/cache/org.scalikejdbc/scalikejdbc-core_2.11/srcs/scalikejdbc-core_2.11-2.4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.11/2.4.1/scalikejdbc-core_2.11-2.4.1-sources.jar"/>
 					</artifact>
-					<artifact name="jsr166e" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73410" time="0" location="/Users/Scott/.ivy2/cache/com.twitter/jsr166e/srcs/jsr166e-1.1.0-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0-sources.jar"/>
+					<artifact name="scalikejdbc-core_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1873531" time="0" location="/Users/Scott/.ivy2/cache/org.scalikejdbc/scalikejdbc-core_2.11/docs/scalikejdbc-core_2.11-2.4.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalikejdbc/scalikejdbc-core_2.11/2.4.1/scalikejdbc-core_2.11-2.4.1-javadoc.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.hdrhistogram" name="HdrHistogram">
-			<revision name="2.1.6" status="release" pubdate="20150729232419" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hdrhistogram.github.io/HdrHistogram/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
-				<license name="Public Domain, per Creative Commons CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
-				<metadata-artifact status="no" details="" size="4190" time="0" location="/Users/Scott/.ivy2/cache/org.hdrhistogram/HdrHistogram/ivy-2.1.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/hdrhistogram/HdrHistogram/2.1.6/HdrHistogram-2.1.6.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.1.6" rev-constraint-default="2.1.6" rev-constraint-dynamic="2.1.6" callerrev="0.1"/>
+		<module organisation="com.h2database" name="h2">
+			<revision name="1.4.191" status="release" pubdate="20160122050231" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.h2database.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
+				<license name="MPL 2.0, and EPL 1.0" url="http://h2database.com/html/license.html"/>
+				<metadata-artifact status="no" details="" size="2456" time="0" location="/Users/Scott/.ivy2/cache/com.h2database/h2/ivy-1.4.191.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/h2database/h2/1.4.191/h2-1.4.191.pom"/>
+				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.4.191" rev-constraint-default="1.4.191" rev-constraint-dynamic="1.4.191" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="HdrHistogram" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="104887" time="0" location="/Users/Scott/.ivy2/cache/org.hdrhistogram/HdrHistogram/srcs/HdrHistogram-2.1.6-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/hdrhistogram/HdrHistogram/2.1.6/HdrHistogram-2.1.6-sources.jar"/>
+					<artifact name="h2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1231563" time="0" location="/Users/Scott/.ivy2/cache/com.h2database/h2/srcs/h2-1.4.191-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/h2database/h2/1.4.191/h2-1.4.191-sources.jar"/>
 					</artifact>
-					<artifact name="HdrHistogram" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="296562" time="0" location="/Users/Scott/.ivy2/cache/org.hdrhistogram/HdrHistogram/docs/HdrHistogram-2.1.6-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/hdrhistogram/HdrHistogram/2.1.6/HdrHistogram-2.1.6-javadoc.jar"/>
+					<artifact name="h2" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3648775" time="0" location="/Users/Scott/.ivy2/cache/com.h2database/h2/docs/h2-1.4.191-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/h2database/h2/1.4.191/h2-1.4.191-javadoc.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="com.ning" name="compress-lzf">
-			<revision name="1.0.2" status="release" pubdate="20140810004200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/ning/compress" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
-				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="3554" time="0" location="/Users/Scott/.ivy2/cache/com.ning/compress-lzf/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/ning/compress-lzf/1.0.2/compress-lzf-1.0.2.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1"/>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430090700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2929" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom"/>
+				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="compress-lzf" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="69893" time="0" location="/Users/Scott/.ivy2/cache/com.ning/compress-lzf/srcs/compress-lzf-1.0.2-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/ning/compress-lzf/1.0.2/compress-lzf-1.0.2-sources.jar"/>
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42276" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar"/>
 					</artifact>
-					<artifact name="compress-lzf" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="272197" time="0" location="/Users/Scott/.ivy2/cache/com.ning/compress-lzf/docs/compress-lzf-1.0.2-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/ning/compress-lzf/1.0.2/compress-lzf-1.0.2-javadoc.jar"/>
+					<artifact name="scala-parser-combinators_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="695301" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/docs/scala-parser-combinators_2.11-1.0.4-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-javadoc.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-cbor">
-			<revision name="2.6.2" status="release" pubdate="20150925210807" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonForCbor" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
-				<metadata-artifact status="no" details="" size="7383" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.2/jackson-dataformat-cbor-2.6.2.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="0.1"/>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.1.7" status="release" pubdate="20160330042502" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="10288" time="0" location="/Users/Scott/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom"/>
+				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="jackson-dataformat-cbor" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="38253" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/srcs/jackson-dataformat-cbor-2.6.2-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.2/jackson-dataformat-cbor-2.6.2-sources.jar"/>
+					<artifact name="logback-classic" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="989855" time="0" location="/Users/Scott/.ivy2/cache/ch.qos.logback/logback-classic/docs/logback-classic-1.1.7-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7-javadoc.jar"/>
 					</artifact>
-					<artifact name="jackson-dataformat-cbor" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="114427" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/docs/jackson-dataformat-cbor-2.6.2-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.2/jackson-dataformat-cbor-2.6.2-javadoc.jar"/>
+					<artifact name="logback-classic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="226208" time="0" location="/Users/Scott/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-yaml">
-			<revision name="2.6.2" status="release" pubdate="20150916102915" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
-				<metadata-artifact status="no" details="" size="8842" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.6.2/jackson-dataformat-yaml-2.6.2.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="0.1"/>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.1.7" status="release" pubdate="20160330042356" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="8012" time="0" location="/Users/Scott/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.pom"/>
+				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="jackson-dataformat-yaml" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="104502" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/docs/jackson-dataformat-yaml-2.6.2-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.6.2/jackson-dataformat-yaml-2.6.2-javadoc.jar"/>
+					<artifact name="logback-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="396578" time="0" location="/Users/Scott/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7-sources.jar"/>
 					</artifact>
-					<artifact name="jackson-dataformat-yaml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26666" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/srcs/jackson-dataformat-yaml-2.6.2-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.6.2/jackson-dataformat-yaml-2.6.2-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.yaml" name="snakeyaml">
-			<revision name="1.15" status="release" pubdate="20150219212700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
-				<license name="Apache License Version 2.0" url="LICENSE.txt"/>
-				<metadata-artifact status="no" details="" size="3591" time="0" location="/Users/Scott/.ivy2/cache/org.yaml/snakeyaml/ivy-1.15.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/yaml/snakeyaml/1.15/snakeyaml-1.15.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.15" rev-constraint-default="1.15" rev-constraint-dynamic="1.15" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="snakeyaml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="169119" time="0" location="/Users/Scott/.ivy2/cache/org.yaml/snakeyaml/srcs/snakeyaml-1.15-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/yaml/snakeyaml/1.15/snakeyaml-1.15-sources.jar"/>
-					</artifact>
-					<artifact name="snakeyaml" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="746052" time="0" location="/Users/Scott/.ivy2/cache/org.yaml/snakeyaml/docs/snakeyaml-1.15-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/yaml/snakeyaml/1.15/snakeyaml-1.15-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-smile">
-			<revision name="2.6.2" status="release" pubdate="20150916173928" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonForSmile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
-				<metadata-artifact status="no" details="" size="7389" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.6.2/jackson-dataformat-smile-2.6.2.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="jackson-dataformat-smile" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="171227" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/docs/jackson-dataformat-smile-2.6.2-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.6.2/jackson-dataformat-smile-2.6.2-javadoc.jar"/>
-					</artifact>
-					<artifact name="jackson-dataformat-smile" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="71037" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/srcs/jackson-dataformat-smile-2.6.2-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.6.2/jackson-dataformat-smile-2.6.2-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
-			<revision name="2.6.2" status="release" pubdate="20150915141958" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
-				<metadata-artifact status="no" details="" size="6833" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.6.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.6.2/jackson-core-2.6.2.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="271945" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.6.2-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.6.2/jackson-core-2.6.2-sources.jar"/>
-					</artifact>
-					<artifact name="jackson-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="914562" time="0" location="/Users/Scott/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/docs/jackson-core-2.6.2-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.6.2/jackson-core-2.6.2-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="joda-time" name="joda-time">
-			<revision name="2.8.2" status="release" pubdate="20150811195900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
-				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="6595" time="0" location="/Users/Scott/.ivy2/cache/joda-time/joda-time/ivy-2.8.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/joda-time/joda-time/2.8.2/joda-time-2.8.2.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="joda-time" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1319362" time="0" location="/Users/Scott/.ivy2/cache/joda-time/joda-time/docs/joda-time-2.8.2-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.8.2/joda-time-2.8.2-javadoc.jar"/>
-					</artifact>
-					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="762254" time="0" location="/Users/Scott/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.8.2-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.8.2/joda-time-2.8.2-sources.jar"/>
+					<artifact name="logback-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1951005" time="0" location="/Users/Scott/.ivy2/cache/ch.qos.logback/logback-core/docs/logback-core-1.1.7-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7-javadoc.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.joda" name="joda-convert">
-			<revision name="1.2" status="release" pubdate="20131007013714" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-convert.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+			<revision name="1.8.1" status="release" pubdate="20151002185804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-convert/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3246" time="0" location="/Users/Scott/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2.pom"/>
+				<metadata-artifact status="no" details="" size="6434" time="0" location="/Users/Scott/.ivy2/cache/org.joda/joda-convert/ivy-1.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.1/joda-convert-1.8.1.pom"/>
+				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="joda-convert" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="101952" time="0" location="/Users/Scott/.ivy2/cache/org.joda/joda-convert/docs/joda-convert-1.8.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.1/joda-convert-1.8.1-javadoc.jar"/>
+					</artifact>
+					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="45686" time="0" location="/Users/Scott/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.8.1/joda-convert-1.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-dbcp2">
+			<revision name="2.1.1" status="release" pubdate="20150803083919" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/dbcp/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<metadata-artifact status="no" details="" size="11767" time="0" location="/Users/Scott/.ivy2/cache/org.apache.commons/commons-dbcp2/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.1.1/commons-dbcp2-2.1.1.pom"/>
+				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-dbcp2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="162798" time="0" location="/Users/Scott/.ivy2/cache/org.apache.commons/commons-dbcp2/srcs/commons-dbcp2-2.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.1.1/commons-dbcp2-2.1.1-sources.jar"/>
+					</artifact>
+					<artifact name="commons-dbcp2" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="459587" time="0" location="/Users/Scott/.ivy2/cache/org.apache.commons/commons-dbcp2/docs/commons-dbcp2-2.1.1-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-dbcp2/2.1.1/commons-dbcp2-2.1.1-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.2" status="release" pubdate="20140706021200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<metadata-artifact status="no" details="" size="11508" time="0" location="/Users/Scott/.ivy2/cache/commons-logging/commons-logging/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="joda-convert" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="56597" time="0" location="/Users/Scott/.ivy2/cache/org.joda/joda-convert/docs/joda-convert-1.2-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2-javadoc.jar"/>
+					<artifact name="commons-logging" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="158448" time="0" location="/Users/Scott/.ivy2/cache/commons-logging/commons-logging/docs/commons-logging-1.2-javadoc.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-logging/commons-logging/1.2/commons-logging-1.2-javadoc.jar"/>
 					</artifact>
-					<artifact name="joda-convert" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19105" time="0" location="/Users/Scott/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.2-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.carrotsearch" name="hppc">
-			<revision name="0.7.1" status="release" pubdate="20150507153300" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
-				<metadata-artifact status="no" details="" size="6994" time="0" location="/Users/Scott/.ivy2/cache/com.carrotsearch/hppc/ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/carrotsearch/hppc/0.7.1/hppc-0.7.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="hppc" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3234449" time="0" location="/Users/Scott/.ivy2/cache/com.carrotsearch/hppc/docs/hppc-0.7.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/carrotsearch/hppc/0.7.1/hppc-0.7.1-javadoc.jar"/>
-					</artifact>
-					<artifact name="hppc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="738368" time="0" location="/Users/Scott/.ivy2/cache/com.carrotsearch/hppc/srcs/hppc-0.7.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/carrotsearch/hppc/0.7.1/hppc-0.7.1-sources.jar"/>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73295" time="0" location="/Users/Scott/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="com.google.guava" name="guava">
-			<revision name="18.0" status="release" pubdate="20140826024800" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
-				<metadata-artifact status="no" details="" size="5409" time="0" location="/Users/Scott/.ivy2/cache/com.google.guava/guava/ivy-18.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/guava/guava/18.0/guava-18.0.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="18.0" rev-constraint-default="18.0" rev-constraint-dynamic="18.0" callerrev="0.1"/>
+		<module organisation="org.apache.commons" name="commons-pool2">
+			<revision name="2.4.2" status="release" pubdate="20150729102011" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-pool/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<metadata-artifact status="no" details="" size="10548" time="0" location="/Users/Scott/.ivy2/cache/org.apache.commons/commons-pool2/ivy-2.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.pom"/>
+				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.4.2" rev-constraint-default="2.4.2" rev-constraint-dynamic="2.4.2" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1277909" time="0" location="/Users/Scott/.ivy2/cache/com.google.guava/guava/srcs/guava-18.0-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/18.0/guava-18.0-sources.jar"/>
+					<artifact name="commons-pool2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="117433" time="0" location="/Users/Scott/.ivy2/cache/org.apache.commons/commons-pool2/srcs/commons-pool2-2.4.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2-sources.jar"/>
 					</artifact>
-					<artifact name="guava" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="5185956" time="0" location="/Users/Scott/.ivy2/cache/com.google.guava/guava/docs/guava-18.0-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/18.0/guava-18.0-javadoc.jar"/>
+					<artifact name="commons-pool2" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="292396" time="0" location="/Users/Scott/.ivy2/cache/org.apache.commons/commons-pool2/docs/commons-pool2-2.4.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2-javadoc.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.apache.lucene" name="lucene-suggest">
-			<revision name="5.3.1" status="release" pubdate="20151001110423" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
-				<metadata-artifact status="no" details="" size="456037" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-suggest/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-suggest/5.3.1/lucene-suggest-5.3.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.8" status="release" pubdate="20160304232641" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom"/>
+				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
 				<artifacts>
-					<artifact name="lucene-suggest" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="568196" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-suggest/docs/lucene-suggest-5.3.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-suggest/5.3.1/lucene-suggest-5.3.1-javadoc.jar"/>
+					<artifact name="scala-reflect" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4386937" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang/scala-reflect/docs/scala-reflect-2.11.8-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-javadoc.jar"/>
 					</artifact>
-					<artifact name="lucene-suggest" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="197756" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-suggest/srcs/lucene-suggest-5.3.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-suggest/5.3.1/lucene-suggest-5.3.1-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.apache.lucene" name="lucene-highlighter">
-			<revision name="5.3.1" status="release" pubdate="20151001110417" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
-				<metadata-artifact status="no" details="" size="456460" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-highlighter/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-highlighter/5.3.1/lucene-highlighter-5.3.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="lucene-highlighter" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="123327" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-highlighter/srcs/lucene-highlighter-5.3.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-highlighter/5.3.1/lucene-highlighter-5.3.1-sources.jar"/>
-					</artifact>
-					<artifact name="lucene-highlighter" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="408155" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-highlighter/docs/lucene-highlighter-5.3.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-highlighter/5.3.1/lucene-highlighter-5.3.1-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.apache.lucene" name="lucene-join">
-			<revision name="5.3.1" status="release" pubdate="20151001110419" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
-				<metadata-artifact status="no" details="" size="455584" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-join/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-join/5.3.1/lucene-join-5.3.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="lucene-join" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="131647" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-join/docs/lucene-join-5.3.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-join/5.3.1/lucene-join-5.3.1-javadoc.jar"/>
-					</artifact>
-					<artifact name="lucene-join" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="62576" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-join/srcs/lucene-join-5.3.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-join/5.3.1/lucene-join-5.3.1-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.apache.lucene" name="lucene-memory">
-			<revision name="5.3.1" status="release" pubdate="20151001110420" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
-				<metadata-artifact status="no" details="" size="455727" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-memory/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-memory/5.3.1/lucene-memory-5.3.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="lucene-memory" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="61662" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-memory/docs/lucene-memory-5.3.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-memory/5.3.1/lucene-memory-5.3.1-javadoc.jar"/>
-					</artifact>
-					<artifact name="lucene-memory" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24583" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-memory/srcs/lucene-memory-5.3.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-memory/5.3.1/lucene-memory-5.3.1-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.apache.lucene" name="lucene-queryparser">
-			<revision name="5.3.1" status="release" pubdate="20150929170840" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
-				<metadata-artifact status="no" details="" size="455883" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-queryparser/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-queryparser/5.3.1/lucene-queryparser-5.3.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="lucene-queryparser" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="403791" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-queryparser/srcs/lucene-queryparser-5.3.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-queryparser/5.3.1/lucene-queryparser-5.3.1-sources.jar"/>
-					</artifact>
-					<artifact name="lucene-queryparser" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1469880" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-queryparser/docs/lucene-queryparser-5.3.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-queryparser/5.3.1/lucene-queryparser-5.3.1-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.apache.lucene" name="lucene-sandbox">
-			<revision name="5.3.1" status="release" pubdate="20150930025800" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
-				<metadata-artifact status="no" details="" size="455347" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-sandbox/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-sandbox/5.3.1/lucene-sandbox-5.3.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="lucene-sandbox" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="322823" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-sandbox/docs/lucene-sandbox-5.3.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-sandbox/5.3.1/lucene-sandbox-5.3.1-javadoc.jar"/>
-					</artifact>
-					<artifact name="lucene-sandbox" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="200896" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-sandbox/srcs/lucene-sandbox-5.3.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-sandbox/5.3.1/lucene-sandbox-5.3.1-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.apache.lucene" name="lucene-analyzers-common">
-			<revision name="5.3.1" status="release" pubdate="20150929170842" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
-				<metadata-artifact status="no" details="" size="455237" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-analyzers-common/5.3.1/lucene-analyzers-common-5.3.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="lucene-analyzers-common" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="2665261" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/docs/lucene-analyzers-common-5.3.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-analyzers-common/5.3.1/lucene-analyzers-common-5.3.1-javadoc.jar"/>
-					</artifact>
-					<artifact name="lucene-analyzers-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1526286" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/srcs/lucene-analyzers-common-5.3.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-analyzers-common/5.3.1/lucene-analyzers-common-5.3.1-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.apache.lucene" name="lucene-backward-codecs">
-			<revision name="5.3.1" status="release" pubdate="20151001110415" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
-				<metadata-artifact status="no" details="" size="455248" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-backward-codecs/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-backward-codecs/5.3.1/lucene-backward-codecs-5.3.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="lucene-backward-codecs" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="212367" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-backward-codecs/srcs/lucene-backward-codecs-5.3.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-backward-codecs/5.3.1/lucene-backward-codecs-5.3.1-sources.jar"/>
-					</artifact>
-					<artifact name="lucene-backward-codecs" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="270002" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-backward-codecs/docs/lucene-backward-codecs-5.3.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-backward-codecs/5.3.1/lucene-backward-codecs-5.3.1-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.apache.lucene" name="lucene-spatial">
-			<revision name="5.3.1" status="release" pubdate="20151001110422" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
-				<metadata-artifact status="no" details="" size="456186" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-spatial/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial/5.3.1/lucene-spatial-5.3.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="lucene-spatial" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="152236" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-spatial/srcs/lucene-spatial-5.3.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial/5.3.1/lucene-spatial-5.3.1-sources.jar"/>
-					</artifact>
-					<artifact name="lucene-spatial" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="486561" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-spatial/docs/lucene-spatial-5.3.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial/5.3.1/lucene-spatial-5.3.1-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.apache.lucene" name="lucene-spatial3d">
-			<revision name="5.3.1" status="release" pubdate="20151006000353" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
-				<metadata-artifact status="no" details="" size="455252" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-spatial3d/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial3d/5.3.1/lucene-spatial3d-5.3.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="lucene-spatial3d" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="458170" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-spatial3d/docs/lucene-spatial3d-5.3.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial3d/5.3.1/lucene-spatial3d-5.3.1-javadoc.jar"/>
-					</artifact>
-					<artifact name="lucene-spatial3d" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="125369" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-spatial3d/srcs/lucene-spatial3d-5.3.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-spatial3d/5.3.1/lucene-spatial3d-5.3.1-sources.jar"/>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="562895" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.jvnet.mimepull" name="mimepull">
-			<revision name="1.9.5" status="release" pubdate="20150313061000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mimepull.java.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+			<revision name="1.9.5" status="release" pubdate="20150313061000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mimepull.java.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
 				<license name="CDDL 1.1" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
 				<license name="GPL2 w/ CPE" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
 				<metadata-artifact status="no" details="" size="3953" time="0" location="/Users/Scott/.ivy2/cache/org.jvnet.mimepull/mimepull/ivy-1.9.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/jvnet/mimepull/mimepull/1.9.5/mimepull-1.9.5.pom"/>
@@ -530,37 +399,23 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="com.spatial4j" name="spatial4j">
-			<revision name="0.4.1" status="release" pubdate="20140219001100" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spatial4j/spatial4j" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
-				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="4157" time="0" location="/Users/Scott/.ivy2/cache/com.spatial4j/spatial4j/ivy-0.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="0.4.1" rev-constraint-default="0.4.1" rev-constraint-dynamic="0.4.1" callerrev="0.1"/>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.21" status="release" pubdate="20160405023640" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/Users/Scott/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.pom"/>
+				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="spatial4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="91814" time="0" location="/Users/Scott/.ivy2/cache/com.spatial4j/spatial4j/srcs/spatial4j-0.4.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1-sources.jar"/>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55663" time="0" location="/Users/Scott/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.21-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21-sources.jar"/>
 					</artifact>
-					<artifact name="spatial4j" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="370667" time="0" location="/Users/Scott/.ivy2/cache/com.spatial4j/spatial4j/docs/spatial4j-0.4.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.apache.lucene" name="lucene-misc">
-			<revision name="5.3.1" status="release" pubdate="20151001110421" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
-				<metadata-artifact status="no" details="" size="455210" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-misc/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-misc/5.3.1/lucene-misc-5.3.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="lucene-misc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="118509" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-misc/srcs/lucene-misc-5.3.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-misc/5.3.1/lucene-misc-5.3.1-sources.jar"/>
-					</artifact>
-					<artifact name="lucene-misc" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="257276" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-misc/docs/lucene-misc-5.3.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-misc/5.3.1/lucene-misc-5.3.1-javadoc.jar"/>
+					<artifact name="slf4j-api" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="241095" time="0" location="/Users/Scott/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.21-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21-javadoc.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.spray" name="spray-can_2.11">
-			<revision name="1.3.3" status="release" pubdate="20150324084800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="7">
+			<revision name="1.3.3" status="release" pubdate="20150324084800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="5">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3554" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-can_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
@@ -575,7 +430,7 @@
 			</revision>
 		</module>
 		<module organisation="io.spray" name="spray-io_2.11">
-			<revision name="1.3.3" status="release" pubdate="20150324085200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="36">
+			<revision name="1.3.3" status="release" pubdate="20150324085200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="24">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3310" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-io_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
@@ -590,7 +445,7 @@
 			</revision>
 		</module>
 		<module organisation="io.spray" name="spray-http_2.11">
-			<revision name="1.3.3" status="release" pubdate="20150324085100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="47">
+			<revision name="1.3.3" status="release" pubdate="20150324085100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="33">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3296" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-http_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
@@ -605,7 +460,7 @@
 			</revision>
 		</module>
 		<module organisation="org.parboiled" name="parboiled-scala_2.11">
-			<revision name="1.1.7" status="release" pubdate="20150209101100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+			<revision name="1.1.7" status="release" pubdate="20150209101100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3094" time="0" location="/Users/Scott/.ivy2/cache/org.parboiled/parboiled-scala_2.11/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="0.1"/>
@@ -620,7 +475,7 @@
 			</revision>
 		</module>
 		<module organisation="io.spray" name="spray-util_2.11">
-			<revision name="1.3.3" status="release" pubdate="20150324084800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="30">
+			<revision name="1.3.3" status="release" pubdate="20150324084800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spray.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="21">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3283" time="0" location="/Users/Scott/.ivy2/cache/io.spray/spray-util_2.11/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.1"/>
@@ -634,38 +489,23 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="io.netty" name="netty">
-			<revision name="3.10.5.Final" status="release" pubdate="20151014173124" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
-				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="7197" time="0" location="/Users/Scott/.ivy2/cache/io.netty/netty/ivy-3.10.5.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty/3.10.5.Final/netty-3.10.5.Final.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="3.10.5.Final" rev-constraint-default="3.10.5.Final" rev-constraint-dynamic="3.10.5.Final" callerrev="0.1"/>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160304232633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="4">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
 				<artifacts>
-					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1154000" time="0" location="/Users/Scott/.ivy2/cache/io.netty/netty/srcs/netty-3.10.5.Final-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.10.5.Final/netty-3.10.5.Final-sources.jar"/>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911686" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar"/>
 					</artifact>
-					<artifact name="netty" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3395259" time="0" location="/Users/Scott/.ivy2/cache/io.netty/netty/docs/netty-3.10.5.Final-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.10.5.Final/netty-3.10.5.Final-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.tdunning" name="t-digest">
-			<revision name="3.0" status="release" pubdate="20140513110900" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tdunning/t-digest" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
-				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="3737" time="0" location="/Users/Scott/.ivy2/cache/com.tdunning/t-digest/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/tdunning/t-digest/3.0/t-digest-3.0.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="t-digest" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="82573" time="0" location="/Users/Scott/.ivy2/cache/com.tdunning/t-digest/docs/t-digest-3.0-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/tdunning/t-digest/3.0/t-digest-3.0-javadoc.jar"/>
-					</artifact>
-					<artifact name="t-digest" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30094" time="0" location="/Users/Scott/.ivy2/cache/com.tdunning/t-digest/srcs/t-digest-3.0-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/com/tdunning/t-digest/3.0/t-digest-3.0-sources.jar"/>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="21970519" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.8-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-javadoc.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.parboiled" name="parboiled-core">
-			<revision name="1.1.7" status="release" pubdate="20150209101200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+			<revision name="1.1.7" status="release" pubdate="20150209101200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2789" time="0" location="/Users/Scott/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.1.7" rev-constraint-default="1.1.7" rev-constraint-dynamic="1.1.7" callerrev="0.1"/>
@@ -680,7 +520,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scalatest" name="scalatest_2.11">
-			<revision name="2.2.4" status="release" pubdate="20150129011600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="52">
+			<revision name="2.2.4" status="release" pubdate="20150129011600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="37">
 				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="4971" time="0" location="/Users/Scott/.ivy2/cache/org.scalatest/scalatest_2.11/ivy-2.2.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="0.1"/>
@@ -694,37 +534,36 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.scala-lang" name="scala-reflect">
-			<revision name="2.11.2" status="release" pubdate="20140723013900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
-				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="no" details="" size="2825" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.11.2" rev-constraint-default="2.11.2" rev-constraint-dynamic="2.11.2" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.2/"/>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.3" status="release" pubdate="20160328033531" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6595" time="0" location="/Users/Scott/.ivy2/cache/joda-time/joda-time/ivy-2.9.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.3/joda-time-2.9.3.pom"/>
+				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.9.3" rev-constraint-default="2.9.3" rev-constraint-dynamic="2.9.3" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="557871" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.2-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar"/>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="770784" time="0" location="/Users/Scott/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.9.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.3/joda-time-2.9.3-sources.jar"/>
 					</artifact>
-					<artifact name="scala-reflect" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3622898" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang/scala-reflect/docs/scala-reflect-2.11.2-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-javadoc.jar"/>
+					<artifact name="joda-time" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1321157" time="0" location="/Users/Scott/.ivy2/cache/joda-time/joda-time/docs/joda-time-2.9.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.3/joda-time-2.9.3-javadoc.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="commons-cli" name="commons-cli">
-			<revision name="1.3.1" status="release" pubdate="20150614180600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-cli/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
-				<metadata-artifact status="no" details="" size="10717" time="0" location="/Users/Scott/.ivy2/cache/commons-cli/commons-cli/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="0.1"/>
+		<module organisation="mysql" name="mysql-connector-java">
+			<revision name="5.1.38" status="release" pubdate="20151202160206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2538" time="0" location="/Users/Scott/.ivy2/cache/mysql/mysql-connector-java/ivy-5.1.38.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.pom"/>
+				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="5.1.38" rev-constraint-default="5.1.38" rev-constraint-dynamic="5.1.38" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="commons-cli" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="58823" time="0" location="/Users/Scott/.ivy2/cache/commons-cli/commons-cli/srcs/commons-cli-1.3.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1-sources.jar"/>
+					<artifact name="mysql-connector-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="894870" time="2354" location="/Users/Scott/.ivy2/cache/mysql/mysql-connector-java/srcs/mysql-connector-java-5.1.38-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38-sources.jar"/>
 					</artifact>
-					<artifact name="commons-cli" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="169756" time="0" location="/Users/Scott/.ivy2/cache/commons-cli/commons-cli/docs/commons-cli-1.3.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1-javadoc.jar"/>
-					</artifact>
+					<artifact name="mysql-connector-java" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="" size="0" time="0"/>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
-			<revision name="2.4.1" status="release" pubdate="20151127072833" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="2">
+			<revision name="2.4.1" status="release" pubdate="20151127072833" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2792" time="0" location="/Users/Scott/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.1/akka-actor_2.11-2.4.1.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.4.1" rev-constraint-default="2.4.1" rev-constraint-dynamic="2.4.1" callerrev="0.1"/>
@@ -739,7 +578,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe" name="config">
-			<revision name="1.3.0" status="release" pubdate="20150508104600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+			<revision name="1.3.0" status="release" pubdate="20150508104600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="32">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2875" time="0" location="/Users/Scott/.ivy2/cache/com.typesafe/config/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.pom"/>
 				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.1"/>
@@ -749,63 +588,6 @@
 					</artifact>
 					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="167084" time="0" location="/Users/Scott/.ivy2/cache/com.typesafe/config/srcs/config-1.3.0-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.scala-lang" name="scala-library">
-			<revision name="2.11.7" status="release" pubdate="20150803110311" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="25">
-				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
-				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
-				<artifacts>
-					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="908307" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar"/>
-					</artifact>
-					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="22812957" time="0" location="/Users/Scott/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.7-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.apache.lucene" name="lucene-grouping">
-			<revision name="5.3.1" status="release" pubdate="20151001110418" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
-				<metadata-artifact status="no" details="" size="455487" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-grouping/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-grouping/5.3.1/lucene-grouping-5.3.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="lucene-grouping" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="265843" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-grouping/docs/lucene-grouping-5.3.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-grouping/5.3.1/lucene-grouping-5.3.1-javadoc.jar"/>
-					</artifact>
-					<artifact name="lucene-grouping" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="71579" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-grouping/srcs/lucene-grouping-5.3.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-grouping/5.3.1/lucene-grouping-5.3.1-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.apache.lucene" name="lucene-queries">
-			<revision name="5.3.1" status="release" pubdate="20150930025801" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
-				<metadata-artifact status="no" details="" size="455209" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-queries/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-queries/5.3.1/lucene-queries-5.3.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="lucene-queries" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="133476" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-queries/srcs/lucene-queries-5.3.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-queries/5.3.1/lucene-queries-5.3.1-sources.jar"/>
-					</artifact>
-					<artifact name="lucene-queries" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="484376" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-queries/docs/lucene-queries-5.3.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-queries/5.3.1/lucene-queries-5.3.1-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.apache.lucene" name="lucene-core">
-			<revision name="5.3.1" status="release" pubdate="20150929170840" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
-				<metadata-artifact status="no" details="" size="454139" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-core/ivy-5.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/lucene/lucene-core/5.3.1/lucene-core-5.3.1.pom"/>
-				<caller organisation="org.qq" name="sbt_template$sources_javadoc_2.11" conf="test, compile, runtime" rev="5.3.1" rev-constraint-default="5.3.1" rev-constraint-dynamic="5.3.1" callerrev="0.1"/>
-				<artifacts>
-					<artifact name="lucene-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="4735900" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-core/docs/lucene-core-5.3.1-javadoc.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-core/5.3.1/lucene-core-5.3.1-javadoc.jar"/>
-					</artifact>
-					<artifact name="lucene-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1809178" time="0" location="/Users/Scott/.ivy2/cache/org.apache.lucene/lucene-core/srcs/lucene-core-5.3.1-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/lucene/lucene-core/5.3.1/lucene-core-5.3.1-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

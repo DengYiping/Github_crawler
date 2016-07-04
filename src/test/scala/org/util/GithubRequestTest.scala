@@ -15,7 +15,7 @@ class GithubRequestTest extends FlatSpec with Matchers with GithubRequest{
     get_max_page(result) shouldBe > (0)
   }
   it should "list all the pages" in{
-    val url = generate_search("python","c")(2)
+    val url = generate_search("python","Moura")(0)
     val new_result = getRequest(url,None)
     new_result.length shouldBe >(0)
   }
