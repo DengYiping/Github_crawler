@@ -15,20 +15,20 @@ object DAO {
   private val connection  = DriverManager.getConnection(DB_URL,USER,PASS)
   def createStandardTable(table_name:String):Unit = {
       val temp_stmt = connection.createStatement()
-      val sql = "CREATE TABLE " + table_name + " (id INT NOT NULL AUTO_INCREMENT, URL VARCHAR(255) NOT NULL, PRIMARY KEY (id));"
-      temp_stmt.execute(sql)
+      val sql = "CREATE TABLE IF NOT EXISTS " + table_name + " (id INT NOT NULL AUTO_INCREMENT, URL VARCHAR(255) NOT NULL, PRIMARY KEY (id));"
+      temp_stmt.executeUpdate(sql)
       temp_stmt.close()
   }
   def insert(table_name:String, url:String):Unit = {
     val temp_stmt = connection.createStatement()
     val sql  = "INSERT INTO " + table_name + " (URL) VALUES ('" + url + "')"
-    temp_stmt.execute(sql)
+    temp_stmt.executeUpdate(sql)
     temp_stmt.close()
   }
   def drop_table(table_name:String):Unit = {
     val temp_stmt = connection.createStatement()
     val sql = "DROP TABLE " + table_name
-    temp_stmt.execute(sql)
+    temp_stmt.executeUpdate(sql)
     temp_stmt.close()
   }
   def main(args:Array[String]):Unit = {

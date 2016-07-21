@@ -45,12 +45,16 @@ class SearchActor extends Actor with ActorLogging with GithubRequest{
       context watch r
       router = router.addRoutee(r)
   }
+
+
   self ! Search("term")
   self ! Search("hadoop")
   self ! Search("wisdom")
   self ! Search("unix")
   self ! Search("shadow")
+
 }
+
 
 class SearchWorker(var language:String, link_ext:ActorRef) extends Actor with ActorLogging with GithubRequest{
   def receive = {

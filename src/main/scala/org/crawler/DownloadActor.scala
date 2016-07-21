@@ -14,9 +14,10 @@ import scala.util.Try
 class DownloadActor(dao:ActorRef) extends Actor{
   var language = Config.config.getString("crawler.start_language")
 
-  class DownloadWorker(language:String, dao:ActorRef) extends Actor with ActorLogging with DownloadLinkGen{
+  class DownloadWorker(language:String, dao:ActorRef) extends Actor with ActorLogging with DownloadLinkGen with DownloadReleaseGen{
     def receive = {
-      case s:String =>Try{
+      case s:String =>
+        Try{
         //log.info("extraction start on " + s)
         gen_download_links(s)
       }.toOption match {
@@ -24,6 +25,13 @@ class DownloadActor(dao:ActorRef) extends Actor{
           e.foreach(dao ! InsertURL(language,_))
         case None =>
       }
+        Try{
+          gen_release_links(s)
+        }.toOption match {
+          case Some(e) =>
+            e.foreach(dao ! InsertURL(language + "_re",_))
+          case None =>
+        }
     }
   }
 
